@@ -1,5 +1,6 @@
-package com.example.gittest;
+package git.gittest;
 
+import git.gittest.dummy.DummyContent;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
@@ -7,7 +8,6 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.gittest.dummy.DummyContent;
 
 /**
  * A list fragment representing a list of Courses. This fragment also supports

@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.gittest.CourseListActivity"
+            android:name="git.gittest.CourseListActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,9 +23,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.gittest.CourseDetailActivity"
+            android:name="git.gittest.CourseDetailActivity"
             android:label="@string/title_course_detail"
-            android:parentActivityName=".CourseListActivity" >
+            android:parentActivityName="git.gittest.CourseListActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".CourseListActivity" />

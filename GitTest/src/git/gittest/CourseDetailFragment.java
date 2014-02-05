@@ -1,5 +1,6 @@
-package com.example.gittest;
+package git.gittest;
 
+import git.gittest.dummy.DummyContent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -7,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.gittest.dummy.DummyContent;
+import com.example.gittest.R;
 
 /**
  * A fragment representing a single Course detail screen. This fragment is

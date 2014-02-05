@@ -1,4 +1,6 @@
-package com.example.gittest;
+package git.gittest;
+
+import com.example.gittest.R;
 
 import android.content.Intent;
 import android.os.Bundle;

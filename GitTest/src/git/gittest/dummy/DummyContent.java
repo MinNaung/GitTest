@@ -1,4 +1,4 @@
-package com.example.gittest.dummy;
+package git.gittest.dummy;
 
 import java.util.ArrayList;
 import java.util.HashMap;
