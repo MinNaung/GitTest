@@ -2,8 +2,8 @@ name: 'My Playground'
 
 on:
   schedule:
-    - cron: '27 3 * * 1,3'
-    - cron: '27 3 * * 2,4'
+    - cron: '33 3 * * 1,3'
+    - cron: '33 3 * * 2,4'
 
 jobs:
   test_schedule:
