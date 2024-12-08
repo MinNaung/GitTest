@@ -5,7 +5,7 @@ on: [push]
 jobs:
   hello-world:
     runs-on: ubuntu-latest
-    if: ${{ github.repository == 'Examp/gitefe' }}
+    if: ${{ github.repository == 'MinNaung/GitTest' }}
     steps:
       - name: "Hello world"
         run: echo "Hello world"
