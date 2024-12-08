@@ -40,4 +40,3 @@ jobs:
       - name: The job has failed
         if: ${{ failure() }}
         run: echo "Failure!"
-        
