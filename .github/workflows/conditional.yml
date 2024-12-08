@@ -4,8 +4,8 @@ on: [push]
 
 jobs:
   hello-world:
-    if: github.repository == 'Examp/gitefe'
     runs-on: ubuntu-latest
+    if: ${{ github.repository == 'Examp/gitefe' }}
     steps:
       - name: "Hello world"
         run: echo "Hello world"
@@ -14,5 +14,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Goodbye Moon"
-        run: "echo Goodbye Moon\!"
-				
+        run: echo "Goodbye Moon!"
