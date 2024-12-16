@@ -10,8 +10,9 @@ on:
 
 jobs:
   build-and-test:
+    name: Build and Test Windows Workflow   # Explicit job name
     runs-on: windows-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3

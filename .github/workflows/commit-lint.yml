@@ -1,0 +1,20 @@
+name: Commit Message Linting
+
+on:
+  pull_request:     # Trigger on pull requests
+    branches:
+      - master      # Replace 'master' with your branch name if different
+
+jobs:
+  lint-commits:
+    name: Lint Commit Messages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Lint Commit Messages
+        uses: wagoid/commitlint-github-action@v5
+        with:
+          configFile: 'commitlint.config.js'  # Optional if commitlint.config.js exists in the root
